@@ -1,0 +1,36 @@
+$cor-de-fundo: #999;
+$cor-texto: #000;
+$cor-hover-texto: #fff;
+$cor-hover-fundo: #000;
+
+.cabecalho {
+    background-color: $cor-de-fundo;
+
+    h1 {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline;
+            margin: 1%;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                font-weight: bold;
+                color: $cor-texto;
+                padding: 2%;
+                border-radius: 2px;
+                transition: all 300ms ease-out;
+
+                &:hover {
+                    color: $cor-hover-texto;
+                    background-color: $cor-hover-fundo;
+                }
+            }
+        }
+    }
+}

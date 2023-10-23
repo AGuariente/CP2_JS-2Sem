@@ -1,0 +1,40 @@
+$cor-de-fundo-rodape: #999;
+$cor-texto-rodape: #000;
+$cor-hover-texto-rodape: #fff;
+$cor-hover-fundo-rodape: #000;
+
+.rodape {
+    background-color: $cor-de-fundo-rodape;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    ul {
+        list-style: none;
+        width: 30%;
+        margin: 0 auto;
+
+        li {
+            display: inline;
+            margin: 2%;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                font-weight: bold;
+                color: $cor-texto-rodape;
+                padding: 10px 0;
+                width: 25%;
+                text-align: center;
+                margin: 0 auto;
+                border-radius: 2px;
+                transition: all 300ms ease-out;
+
+                &:hover {
+                    color: $cor-hover-texto-rodape;
+                    background-color: $cor-hover-fundo-rodape;
+                }
+            }
+        }
+    }
+}

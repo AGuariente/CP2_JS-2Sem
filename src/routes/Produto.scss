@@ -1,0 +1,21 @@
+$bgcolorTBL: rgb(245, 245, 220);
+$bgcolorButton: rgb(199, 199, 150);
+
+.tblNomes {
+    background-color: $bgcolorTBL;
+}
+
+th{
+    padding: 70px;
+}
+
+td{
+    padding-left: 70px;
+    padding-bottom: 1%;
+}
+
+button {
+    background-color: $bgcolorButton;
+    margin-right: 50px;
+    margin-top: 10px;
+}
