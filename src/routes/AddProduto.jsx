@@ -30,7 +30,7 @@ export default function AdicionarProduto() {
     })
       .then(() => {
         // Redirecionar para a página principal após a adição
-        history.push("/");
+        history("/produtos");
       })
       .catch((error) => console.error(error));
   };
@@ -50,7 +50,7 @@ export default function AdicionarProduto() {
           />
         </div>
         <div>
-          <label htmlFor="desc">Desc</label>
+          <label htmlFor="desc">Descrição</label>
           <input
             type="text"
             name="desc"

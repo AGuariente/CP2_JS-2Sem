@@ -4,7 +4,8 @@ import "./Produto.scss";
 
 export default function Produtos() {
   document.title = "PRODUTOS";
-  
+
+
   const [listaProdutosAPI, setListaProdutosAPI] = useState([]);
 
   useEffect(() => {
@@ -24,6 +25,10 @@ export default function Produtos() {
     // Excluir produto usando API
     fetch(`http://localhost:5000/produtos/${id}`, {
       method: "DELETE"
+    })
+    .then(() => {
+      // Redirecionar para a página principal após a adição
+      window.location.reload();
     })
     .catch((error) => console.error(error));
   };
