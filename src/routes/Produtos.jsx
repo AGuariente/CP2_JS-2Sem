@@ -59,7 +59,7 @@ export default function Produtos() {
                       <td>{item.desc}</td>
                       <td>{item.valor}</td>
                       <td>
-                        <Link to={`/editar/produtos/${item.id}`}>Editar</Link>
+                         <Link to={`/editar/produtos/${item.id}`}>Editar</Link>
                       </td>
                       <td>
                         <button onClick={() => excluirDados(item.id)}>Excluir</button>

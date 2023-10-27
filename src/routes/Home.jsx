@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -7,8 +8,8 @@ export default function Home() {
     <div>
       <h1>Home</h1>
       <div>
+        <Link to={'/produtos'}> PRODUTOS EM OFERTA </Link>
         <figure>
-          <figcaption>PRODUTOS EM OFERTA</figcaption>
           <img src="/public/img/grocery-1232944_640.jpg" alt="Prateleira de Produtos." />
         </figure>
       </div>

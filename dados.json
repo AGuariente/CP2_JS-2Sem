@@ -1,3 +1,28 @@
 {
-  "produtos": []
+  "produtos": [
+    {
+      "nome": "Estojo",
+      "desc": "Branco",
+      "valor": "20",
+      "id": 3
+    },
+    {
+      "nome": "Tv",
+      "desc": "Preto",
+      "valor": "10",
+      "id": 4
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "nome": "Controle",
+      "desc": "Ps2",
+      "valor": "260",
+      "id": 8
+    }
+  ]
 }
